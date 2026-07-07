@@ -18,6 +18,12 @@ dist-ssr
 .idea
 .DS_Store
 *.suo
+
+# Certificates in assets folder
+assets/*.crt
+assets/*.pem
+assets/*.key
+assets/*.pfx
 *.ntvs*
 *.njsproj
 *.sln
