@@ -27,7 +27,7 @@ export const socialLinks = {
 
 export const heroContent = {
   greeting: "Hi, I'm Karthik Salupala",
-  titleHighlight: "Data Science Engineer", 
+  titleHighlight: "AI Engineer", 
   title:"AI Engineer & Full Stack Developer",
   subtitle:
     "I build AI-powered web apps with React, Python, OpenAI, Supabase, and Vercel.",
