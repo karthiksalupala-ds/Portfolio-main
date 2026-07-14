@@ -27,7 +27,7 @@ export default async function handler(req, res) {
         'X-Title': 'Karthik Portfolio Chatbot', // Optional, for OpenRouter rankings
       },
       body: JSON.stringify({
-        model: 'google/gemini-2.0-flash-lite-preview-02-05:free', // Fast, high-quality, free model!
+        model: 'meta-llama/llama-3.3-70b-instruct:free', // Fast, high-quality, free model!
         messages,
         max_tokens: 300,
         temperature: 0.7,
