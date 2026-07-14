@@ -7,7 +7,7 @@ export default async function handler(req, res) {
     return res.status(405).json({ error: 'Method not allowed' });
   }
 
-  const apiKey = process.env.OPENAI_API_KEY; // The user will place their OpenRouter key here
+  const apiKey = process.env.OPENROUTER_API_KEY; // The user will place their OpenRouter key here
   if (!apiKey) {
     return res.status(500).json({ error: 'API key not configured on server' });
   }
